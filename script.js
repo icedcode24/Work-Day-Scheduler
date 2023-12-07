@@ -1,3 +1,21 @@
+var dayjs = require('dayjs') //import dayjs from 'dayjs' // ES 2015 dayjs().format()
+dayjs('2019-01-25').format('DD/MM/YYYY') // '25/01/2019'
+
+function getheaderdate() {
+  var currentheaderdate = dayjs.format('dddd, mmmm D YYYY)
+
+}const currentDate = dayjs(); const formattedDate = currentDate. format('YYYY-MM-DD HH:mm:ss')
+
+
+
+
+
+
+
+
+
+
+
 // Wrap all code that interacts with the DOM in a call to jQuery to ensure that
 // the code isn't run until the browser has finished rendering all the elements
 // in the html.

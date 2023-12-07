@@ -4,6 +4,7 @@ body {
 }
 
 textarea {
+  flex align-content: ;
   background: transparent;
   border: none;
   resize: none;
